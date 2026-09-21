@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .data_engine import (
+from data_engine import (
     get_summary,
     get_trajectory,
     get_profile,
@@ -8,8 +8,8 @@ from .data_engine import (
     dataset_to_dataframe,
 )
 
-from .anomaly import detect_temperature_anomalies
-from .query_engine import parse_query
+from anomaly import detect_temperature_anomalies
+from query_engine import parse_query
 from fastapi.middleware.cors import CORSMiddleware
 
 
