@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+xarray
+pandas
+numpy
+h5netcdf
+h5py
+argopy
+erddapy<3
+certifi
