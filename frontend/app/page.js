@@ -13,7 +13,7 @@ const ProfileChart = dynamic(
   { ssr: false }
 );
 
-const API = "http://127.0.0.1:8000";
+const API = "https://flowchat-zpq0.onrender.com";
 
 export default function Home() {
   const [summary, setSummary] = useState(null);
